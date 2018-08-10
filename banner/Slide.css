@@ -1,0 +1,49 @@
+.Slide{
+	border: 1px solid gray;
+	position: relative;
+	overflow: hidden;
+}
+
+.Slide *{
+	margin: 0;
+	padding: 0;
+}
+
+.Slide li{
+	list-style: none;
+	float: left;
+}
+
+.Slide>ul,.Slide>ol,.Slide>p{
+	position: absolute;
+}
+.Slide>p{
+	border-radius: 50%;
+	border:1px solid white;
+	background: #000000;
+	cursor: pointer;
+	color: white;
+	text-align: center;
+	opacity: 0;
+}
+
+.Slide>ul{
+	
+}
+
+.Slide>ol{
+	bottom: 0;
+	right: 0;
+}
+.Slide>ol span{
+	display: block;
+	border-radius: 50%;
+	border:1px solid white;
+	background: #000000;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.selected{
+	background: #87CEEB !important;
+}

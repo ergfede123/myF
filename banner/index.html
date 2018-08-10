@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" href="Slide.css" />
+</head>
+<body>
+
+<div id="box1"></div>
+
+<div id="box2"></div>
+
+<script src="startMove.js" ></script>
+<script src="Slide.js"></script>	
+<script>
+new Slide(box1, 300, 300, [
+	{"title":"百度", "img":"images/001.jpg", "url":"http://www.baidu.com"},
+	{"title":"网易", "img":"images/002.jpg", "url":"http://www.163.com"},
+	{"title":"新浪", "img":"images/003.jpg", "url":"http://www.sina.com"},
+	{"title":"千锋", "img":"images/004.jpg", "url":"http://www.1000phone.com"}
+], 25, 2000, 0, -1);
+
+new Slide(box2, 200, 200, [
+	{"title":"百度", "img":"img/1.jpg", "url":"http://www.baidu.com"},
+	{"title":"网易", "img":"img/2.jpg", "url":"http://www.163.com"},
+	{"title":"新浪", "img":"img/3.jpg", "url":"http://www.sina.com"}
+], 25, 5000, 1, 1);
+
+</script>
+</body>
+</html>
